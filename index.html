@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUCTION TO HTML DOM</title>
+</head>
+<h1 id="heading">HI,LORD DIDI</h1>
+<button onclick="tryme()">click here</button>
+<p id="p1"></p>
+<body>
+    <script>
+        document.getElementById("p1").innerHTML = " this is a paragraph";
+        var heading = document.getElementById("heading").innerHTML;
+        
+        alert("the heading is" + heading)
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
